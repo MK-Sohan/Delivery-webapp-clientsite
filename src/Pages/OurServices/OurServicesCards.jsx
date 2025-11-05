@@ -4,7 +4,7 @@ import icon from '../../assets/service.png'
 const OurServicesCards = () => {
     return (
         <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 justify-center items-center  ">
-            <div className='bg-white rounded-4xl px-4 py-[25px] shadow-md  h-[286px]  '>
+            <div className='bg-white rounded-4xl px-4 py-[25px] shadow-md  h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center  '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
@@ -13,7 +13,7 @@ const OurServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-[#CAEB66] rounded-4xl px-4 py-[40px] shadow-md h-[286px] '>
+            <div className='bg-white rounded-4xl px-4 py-[40px] shadow-md h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center   '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
@@ -22,7 +22,7 @@ const OurServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-white rounded-4xl px-4 py-[40px] shadow-md  h-[286px] '>
+            <div className='bg-white rounded-4xl px-4 py-[40px] shadow-md  h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center   '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
@@ -31,7 +31,7 @@ const OurServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-white rounded-4xl px-4 py-[40px] shadow-md  h-[286px] '>
+            <div className='bg-white rounded-4xl px-4 py-[40px] shadow-md  h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center   '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
@@ -40,7 +40,7 @@ const OurServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-white rounded-4xl px-4 py-[25px] shadow-md  h-[286px] '>
+            <div className='bg-white rounded-4xl px-4 py-[25px] shadow-md  h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center   '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
@@ -49,7 +49,7 @@ const OurServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-white rounded-4xl px-4 py-[30px] shadow-md  h-[286px] '>
+            <div className='bg-white rounded-4xl px-4 py-[30px] shadow-md  h-[286px] hover:bg-[#CAEB66] esease-in-out duration-300'>
                 <div className='   mx-auto  flex flex-col items-center text-center   '>
                     <div className='shadow-2xl w-[70px] h-[70px] p-3  flex justify-center bg-amber-50 rounded-full'><img className='w-[45px] h-[45px]' src={icon} alt="" /></div>
                     <div className='  mt-4'>
