@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end flex justify-center gap-2">
-                    <button className="bg-transparent border rounded-xl  border-gray-400 h-[46px] w-[100px] font-bold tracking-wider"><Link>Sign In</Link></button>
+                    <button className="bg-transparent border rounded-xl  border-gray-400 h-[46px] w-[100px] font-bold tracking-wider"><Link to='/login'>Sign In</Link></button>
                     <Link ><button className='rounded-xl bg-[#CAEB66] border-gray-400 h-[46px] w-[100px] font-bold tracking-wider'>Be a Rider</button></Link>
                     <Link className=""><button className='bg-black text-[#CAEB66] rounded-full p-[10px]'><MoveUpRight /></button></Link>
 
