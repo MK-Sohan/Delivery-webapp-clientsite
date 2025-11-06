@@ -7,6 +7,8 @@ import ReviewCarousel from '../../Review/ReviewCarousel';
 import ReviewPage from '../../Review/ReviewPage';
 import FaqSection from '../../FaqSection/FaqSection';
 import BrandCarousel from '../../SelsTeam/BrandCarousel';
+import FeaturesSection from '../../FeaturesSection/FeaturesSection';
+import SatisfactionSection from '../../SatisfactionSection/SatisfactionSection.jsx';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <Howitworks></Howitworks>
             <OurServices></OurServices>
             <BrandCarousel></BrandCarousel>
+            <FeaturesSection></FeaturesSection>
+            <SatisfactionSection></SatisfactionSection>
             <ReviewPage></ReviewPage>
             <FaqSection></FaqSection>
         </div>

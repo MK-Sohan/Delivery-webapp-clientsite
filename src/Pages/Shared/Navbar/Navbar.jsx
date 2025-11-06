@@ -2,6 +2,13 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 import ProfastLogo from '../ProfastLogo/ProfastLogo';
 import { MoveUpRight } from 'lucide-react';
+const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Services", path: "/services" },
+    { name: "Contact", path: "/contact" },
+];
+
 const Navbar = () => {
     const navLink = <>
         <NavLink>Services</NavLink>
@@ -31,9 +38,23 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 flex gap-5 justify-center text-[15px] tracking-widest">
-                        {navLink}
+                        {navLinks.map((link) => (
+                            <li key={link.path}>
+                                <NavLink
+                                    to={link.path}
+                                    end={link.path === "/"} // important: ensures "/" only active on exact match
+                                    className={({ isActive }) =>
+                                        `transition-transform duration-200 ease-in-out inline-block px-2 py-1 ${isActive ? "text-green-500 font-semibold" : "text-gray-700"
+                                        } hover:text-green-500 hover:scale-105`
+                                    }
+                                >
+                                    {link.name}
+                                </NavLink>
+                            </li>
+                        ))}
                     </ul>
                 </div>
+
                 <div className="navbar-end flex justify-center gap-2">
                     <button className="bg-transparent border rounded-xl  border-gray-400 h-[46px] w-[100px] font-bold tracking-wider"><Link>Sign In</Link></button>
                     <Link ><button className='rounded-xl bg-[#CAEB66] border-gray-400 h-[46px] w-[100px] font-bold tracking-wider'>Be a Rider</button></Link>

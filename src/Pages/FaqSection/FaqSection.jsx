@@ -87,7 +87,7 @@ export default function FaqSection() {
                 ))}
             </div>
 
-            <div className="text-center mt-10">
+            <div className="text-center mt-10 flex justify-center items-center gap-1">
                 <button className="bg-lime-300 hover:bg-lime-400 transition-colors text-gray-900 font-medium py-3 px-6 rounded-full inline-flex items-center gap-2">
                     See More FAQ’s
                     <ArrowRight className="w-5 h-5" />
