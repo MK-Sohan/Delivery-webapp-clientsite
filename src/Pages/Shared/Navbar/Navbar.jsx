@@ -3,10 +3,12 @@ import { Link, NavLink } from 'react-router';
 import ProfastLogo from '../ProfastLogo/ProfastLogo';
 import { MoveUpRight } from 'lucide-react';
 const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Contact", path: "/contact" },
+    { name: "Coverage", path: "/Coverage" },
+    { name: "About Us", path: "/about" },
+    { name: "Pricing", path: "/pricing" },
+    { name: "Track Order", path: "/trackOrder" },
+    { name: "Be a Rider", path: "/bearider" },
 ];
 
 const Navbar = () => {
